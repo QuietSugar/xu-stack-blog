@@ -52,3 +52,18 @@ Make sure also to specify Hugo version in the environment variable `HUGO_VERSION
 
 ![Environment variable](https://user-images.githubusercontent.com/5889006/156917212-afb7c70d-ab85-480f-8288-b15781a462c0.png)
 </details>
+
+
+如果项目已下载,那没可以使用以下命令下载主题
+
+```
+git submodule update --init --recursive
+
+```
+
+git clone --recursive https://github.com/QuietSugar/xu-stack-blog.git
+
+# Development environment
+hugo server --disableFastRender --navigateToChanged --bind 0.0.0.0
+# Production environment
+hugo server --disableFastRender --navigateToChanged --environment production --bind 0.0.0.0

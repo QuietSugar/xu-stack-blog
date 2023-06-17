@@ -1,16 +1,18 @@
 ---
-title: Hello World
-description: Welcome to Hugo Theme Stack
-slug: hello-world
-date: 2022-03-06 00:00:00+0000
+title: 示例页面
+description: 这是一个示例页面
+# 这是这个文章的别名,它会出现在url路径中
+slug: about
+date: 2023-06-06 00:00:00+0000
 image: cover.jpg
 categories:
-    - Example Category
+    - 示例
 tags:
     - Example Tag
 ---
 
-Welcome to Hugo theme Stack. This is your first post. Edit or delete it, then start writing!
+
+
 
 For more information about this theme, check the documentation: https://docs.stack.jimmycai.com/
 
