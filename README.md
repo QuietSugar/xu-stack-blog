@@ -25,10 +25,21 @@ git submodule update --init --recursive
 > navigateToChanged 更改某一个文件的时候,在浏览器中导航到这个文件
 
 
+``` bash
+
 # 开发环境
 hugo server --disableFastRender --navigateToChanged --bind 0.0.0.0
 # 正式环境
 hugo server --disableFastRender --navigateToChanged --environment production --bind 0.0.0.0
+
+# 在云环境中启动
+hugo server --baseURL  https://c424c2cf-66db-4b51-a986-8db615d80ba6-1313-public.devstudio.aliyuncs.com/ --bind 0.0.0.0  --appendPort=false
+
+# 创建页面
+
+hugo new posts/my-first-post.md
+
+```
 
 
 
